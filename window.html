@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <title>yogurt</title>
+    <link rel="stylesheet" href="window.css">
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="jquery-ui.min.js"></script>
+    <script type="text/javascript" src="progbar.js"></script>
+	<script type="text/javascript" src="yogurt/main.js"></script>
+    <script type="text/javascript" src="yogurt/log.js"></script>
+ 	<!-- SocketFetch-->
+ 	<div id="socketfetch_includes">
+		<script src="bower_components/uri.js/src/URI.min.js"></script>
+		<script src="bower_components/cookie-parser/cookie-parser.js"></script>
+		<script src="bower_components/zlib/bin/zlib_and_gzip.min.js"></script>
+	 	<script src="bower_components/crypto-js/crypto-js.js"></script>
+		<script src="bower_components/socket-fetch/auth.js"></script>
+		<script src="bower_components/socket-fetch/auth.basic.js"></script>
+		<script src="bower_components/socket-fetch/auth.digest.js"></script>
+		<script src="bower_components/socket-fetch/auth.ntlm.js"></script>
+		<script src="bower_components/socket-fetch/app.event.js"></script>
+		<script src="bower_components/socket-fetch/app.request.js"></script>
+		<script src="bower_components/socket-fetch/app.response.js"></script>
+		<script src="bower_components/socket-fetch/app.fetch.js"></script>
+		<script src="bower_components/socket-fetch/http.parser.js"></script>
+		<script src="bower_components/socket-fetch/import-location.js"></script>
+	</div>
+  </head>
+  <body id="body" bgcolor="#216DDF" class="body">
+  	<script type="text/javascript" src="window.js"></script>
+	<div id="begin" class="begin">
+		<p align=center id=title class="title">Yogurt</p>
+		<p align=center><input id="input_url" type="text" value="Enter your URL here"/></p>
+		<p align=center><button id="download">Go</button></p>
+	</div>
+	<div id="status_bar" class="status_bar">
+		<div id="status_head" class="status_text"></div>
+		<div id="progbar" style='text-align: center'>
+			<div id='myProgress'><div id='myBar'></div></div>
+			<img id='but_abort' class='abort_icon' src='imgs/abort.png' width=25px height=25px>
+		</div>
+	</div>
+	<div id="dl_links" class="dl_links">
+	</div>
+	<div><p align=center><button id="restart">Start new task</button></p></div>
+	<div id="logs" class="logs">
+	</div>
+  </body>
+</html>
+
+

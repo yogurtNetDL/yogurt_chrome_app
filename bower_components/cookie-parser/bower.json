@@ -1,0 +1,40 @@
+{
+  "name": "cookie-parser",
+  "version": "1.0.13",
+  "license": "LICENSE",
+  "description": "A javascript cookie parser for javascript HTTP clients.",
+  "authors": [
+    "Pawel Psztyc"
+  ],
+  "main": "cookie-parser.html",
+  "homepage": "https://github.com/jarrodek/cookie-parser",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jarrodek/cookie-parser.git"
+  },
+  "keywords": [
+    "javascript", "cookies", "HTTP"
+  ],
+  "private": false,
+  "dependencies": {
+    "uri.js": "medialize/URI.js#^1.17.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.0",
+    "stacky": "^1.3.0",
+    "async": "^1.5.0",
+    "chai": "^2.3.0",
+    "lodash": "^3.7.0",
+    "sinon-chai": "^2.7.0",
+    "sinonjs": "^1.14.1"
+  },
+  "ignore": [
+    "/.*",
+    "package.json",
+    "gulpfile.js",
+    "/test/",
+    "/tasks/",
+    "CONTRIBUTING.md",
+    "dependencyci.yml"
+  ]
+}

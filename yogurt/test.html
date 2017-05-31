@@ -1,0 +1,21 @@
+<body onload="brython(1)">
+<button id="button1">hello</button>
+<script src="brython.js"></script>
+<script src="brython_stdlib.js"></script>
+<script type="text/javascript">
+window.addEventListener('message', function(event) {
+	console.log("brython.html msg received",event)
+    var command = event.data.command;
+    switch(command) {
+      case 'decompose':
+        var url = event.data.url;
+        event.source.postMessage({"url":url}, event.origin);
+        break;
+    }
+});
+</script>
+<script type="text/python">
+import test
+test.test()
+</script>
+</body>

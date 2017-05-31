@@ -1,0 +1,120 @@
+.body{
+    width: 100%;
+    margin-left: 0%;
+    font-size: 12px;
+   /*background-color: #216DDF;*/
+}
+.begin{
+	text-align: center;
+	width: 100%;
+	margin-left: 0%;
+	margin-top: 15%;
+	margin-bottom: : 10px;
+}
+.title{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+}
+.logs{
+	text-align: left;
+	width: 100%;
+	margin-left: 0%;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	background-color: #2F2F2F;
+}	
+.log_text{
+	margin: 0 auto;
+	font-size: 15px;
+}
+.status_text{
+	font-size: 18px;
+}
+.dl_links{
+  width: 70%;
+  margin-left: 15%;
+	color: #F6FF00;
+	font-size: 18px;
+}
+.dl_hyberlink:link{
+	color: #F6FF00;
+}
+.dl_hyberlink:visited{
+	color: #FFFFFF;
+}
+.dl_hyberlink:hover{
+	color: #E2E2E2;
+}
+.dl_hyberlink:active {
+    color: #FFFFFF;
+}
+.abort_icon{
+  margin-bottom: -5px;
+}
+#myProgress {
+  margin-left: 5%;
+  margin-bottom: 10px;
+  width: 70%;
+  height: 25px;
+  background-color: #FFFFFF;
+  display: inline-block;
+  text-align:left;
+}
+#myBar {
+  top:0px;
+  left:0px;
+  width: 0%;
+  height: 25px;
+  background-color: #241FE4;
+  display: inline-block;
+  text-align:center;
+}
+
+input[type="text"] {
+  text-align: center;
+  display: block;
+  margin: 0;
+  width: 85%;
+  font-family: sans-serif;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  color: #6F6F6F;
+}
+button {
+  background-color: #216DDF;
+  color: #FFFFFF;
+  display: block;
+  border: 10px;
+  margin: 0;
+  width: 50%;
+  height: 55px;
+  margin-top: 15px;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 1px;
+  border-color: #0025B0;
+}
+button:hover {
+  background-color: #06439F;
+  color: #FFFFFF;
+  display: block;
+  border: 10px;
+  margin: 0;
+  width: 50%;
+  height: 55px;
+  margin-top: 15px;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 1px;
+  border-color: #0025B0;
+}
